@@ -1,6 +1,6 @@
 # SI-Final Project
 
-`#去水印` `#finetune` `#RoRA`
+`#去水印` `#finetune` `#LoRA`
 
 <aside>
 💡
