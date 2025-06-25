@@ -15,8 +15,8 @@ def inference_model(lora_weights_path, input_dir, output_dir):
     base_model_name = "stabilityai/stable-diffusion-2-inpainting"
     os.makedirs(output_dir, exist_ok=True)
 
-    prompt = "A man with sunglasses and a beard"
-    negative_prompt = "green box, mask, censorship, blur, unnatural color, overlay, pixelation, low quality face, deformation, obstruction"
+    prompt = " "
+    negative_prompt = " "
 
     # ---------------------------------------------------
     # 2. 加載 Inpainting Pipeline 和 LoRA 權重
